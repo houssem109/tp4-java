@@ -84,7 +84,7 @@ public class Dictionnaire {
 	}
 	public void Listerdec() {
         for (int i = 0; i < nb_mot; i++) {
-            System.out.println("Mot: " + dict[i].getmot() + " - Définition: " + dict[i].getdefinition());
+            System.out.println("Mot: " + dict[i].getmot() + " \n Définition: " + dict[i].getdefinition());
         }
     }
 	public int Nombre_synonyme(Mot_dict motDict) {
